@@ -1,1 +1,131 @@
 Hello Gud Morning
+
+
+gitruchika
+chaudharyruchika3@gmail.com
+Samruchi@92
+
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo
+$ git clone https://github.com/gitruchika/Selenium_Automation.git
+Cloning into 'Selenium_Automation'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo
+$ ls
+Selenium_Automation/
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo
+$ cd Selenium_Automation/
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo/Selenium_Automation (main)
+$ ls
+README.md
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo/Selenium_Automation (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        First_File.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo/Selenium_Automation (main)
+$ git add .
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo/Selenium_Automation (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   First_File.txt
+
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo/Selenium_Automation (main)
+$ git commit -m "Added First file"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'HP@DESKTOP-FDC3UT9.(none)')
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo/Selenium_Automation (main)
+$  git config --global user.email "chaudharyruchika3@gmail.com"
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo/Selenium_Automation (main)
+$  git config --global user.name "gitruchika"
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo/Selenium_Automation (main)
+$ git commit
+Aborting commit due to empty commit message.
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo/Selenium_Automation (main)
+$ git commit -m "Added First File"
+[main 193f4ba] Added First File
+ 1 file changed, 1 insertion(+)
+ create mode 100644 First_File.txt
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo/Selenium_Automation (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 307 bytes | 307.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/gitruchika/Selenium_Automation.git
+   12d6f68..193f4ba  main -> main
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo/Selenium_Automation (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test_practice.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo/Selenium_Automation (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo/Selenium_Automation (main)
+$ git add .
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo/Selenium_Automation (main)
+$ git commit -m "Python File Added"
+[main 8f875e8] Python File Added
+ 1 file changed, 31 insertions(+)
+ create mode 100644 test_practice.py
+
+HP@DESKTOP-FDC3UT9 MINGW64 /f/Git_Repo/Selenium_Automation (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 554 bytes | 554.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/gitruchika/Selenium_Automation.git
+   193f4ba..8f875e8  main -> main
