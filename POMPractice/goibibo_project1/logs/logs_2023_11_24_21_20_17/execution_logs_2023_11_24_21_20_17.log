@@ -1,0 +1,3 @@
+2023-11-24 21:21:03,993 [INFO] basefile.py:18 found element for locator: ('xpath', "//h1[@align='center']")
+2023-11-24 21:21:04,107 [INFO] basefile.py:42 got text of element: ('xpath', "//h1[@align='center']"), Dummy Ticket Booking Website
+2023-11-24 21:21:04,150 [INFO] basefile.py:18 found element for locator: ('xpath', "//span[contains(text(),'Dummy hotel booking ticket - $400')]//parent::li/input")

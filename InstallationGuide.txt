@@ -1,0 +1,25 @@
+Python Installation:
+
+1. Download :
+https://www.python.org/ftp/python/3.11.5/python-3.11.5-amd64.exe
+
+2.  Create a directory in C driver with name Python311.
+
+3. Initiate installation from download location python-3.11.5-amd64.exe.
+
+4. Choose custom installation while installing the Python.
+
+5. Provide custom installation C:\\Python311 and complete the installation.
+
+6.  Once installation is done, open command prompt and type this 'python' command to check
+    the installation is successful or not.
+
+
+Python 3.11.5 (tags/v3.11.5:cce6ba9, Aug 24 2023, 14:38:34) [MSC v.1936 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+
+7. Execute the 'hello World' program from commandline
+
+8. Create a python file and execute the file from command line.
+
+9. Install IDE Tools Pycharm and try to execute the first_program.py file.

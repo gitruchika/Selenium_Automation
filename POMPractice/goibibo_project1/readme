@@ -1,0 +1,1 @@
+python -m pytest -v -s --browser edge .\tests\test_dummy_website.py --html=google_report.htmt

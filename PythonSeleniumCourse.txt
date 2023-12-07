@@ -1,0 +1,10 @@
+Python Selenium Course Content
+
+1). Python Programming.
+2). Selenium (Web Automation Tool)
+3). Pytest (Pytest Framework)
+4). Robotframework (Key driven framework)
+5). Git Hub (Code Management)
+6). API Testing (This is Type of Testing, Where we test application API)
+7). Jenkins Configuration/Integration
+    (CI/CD Pipeline)

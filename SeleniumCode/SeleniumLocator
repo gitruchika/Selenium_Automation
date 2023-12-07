@@ -1,0 +1,94 @@
+Number Of Locators
+
+NAME
+ID
+CLASS NAME
+LINK TEXT
+TAG NAME
+PARTIAL LINK TEXT
+XPATH
+    1). Absolute XPATH:
+    /html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input
+
+    2). Relative XPATH:
+    # https://www.facebook.com/
+
+    xpath = //tagname[@attribute='attribute value']
+    //input[@aria-label='Email address or phone number']
+    //input[@autofocus='1']
+    //input[@data-testid="royal_email"]
+
+    # Dynamic Axes
+
+    i) Basic XPATH:
+         xpath = //tagname[@attribute='attribute value']
+         //*[@alt='Facebook']
+         //div/div[@class='_6lux']/input[@id='email']
+         //div[@class='_6lux']/input
+
+    ii) Contains :  contains method search the elements with the partials value of the attribute.
+    //tagname[contains(@attribute, 'attribute value')]
+    //button[contains(@data-testid, 'royal')]
+    (//*[contains(@data-testid, 'royal_login')])[2]
+
+
+
+    iii) Using AND & OR:
+    //tagname[@att1= 'attr1_value' and @attr2 = 'attr2_value']
+    //button[@name='login' and @data-testid='royal_login_button']
+    //input[@name='ss' and @placeholder='Where are you going?']
+
+
+    //tagname[@att1= 'attr1_value' or @attr2 = 'attr2_value']
+    //input[@id='email1' or @data-testid='royal_email']
+    //input[@id='email1' or contains(@data-testid, 'royal')]
+
+
+
+    iv) Text():
+    //tagname[text()='text value']
+    (//span[text()='Register'])[1]
+    //span[text()='Find your next stay']
+    //span[contains(text(), 'Find your')]
+
+    # Advance Xpath Method
+    a). Following : All the elements which are coming after the reference element on the webpage.
+        //tagname[@attr='attr value']//following::tagname[@attrb='attr value']
+        //input[@id='male']//following::input[@name='fromcity']
+        //h3[text()='Choose the correct option:']//following::input[@value='radio_678']
+        //h3[text()='Choose the correct option:']//following::input[@id='street_address1']
+
+    b). Following-sibling :  All the younger sibling of reference element.
+        //tagname[@attr='value']//following-sibling::tagname[@attrib='value']
+        //td[text()='6001']//following-sibling::td[text()='1033']
+        //input[@id='billing_phone']//following-sibling::input[@id='street_address1']
+
+    c). Ancestor :  Any grand parent element in the tree of the webpage.
+       //tagname[@attr='value']//ancestor::tagname[@attr='value']
+       //input[@name='postcode']//ancestor::div[@id='billing_details']//input[@id='billing_address']
+       //td[text()='Mumbai']//ancestor::tbody//td[text()='6007']
+
+    d). Child :  All elements which are child of specific element
+        //tagname[@attr='value']//child::tagname[@attr=value]
+        //table[@id='cities']//child::td[text()='Mumbai']
+        //table[@id='cities']//td[text()='Pune']
+
+    e). Preceding : All web elements which are coming before the reference element in the webpage.
+        //tagname[@attr='value']//parent::tagname[@attr=value]
+        (//input[@id='firstname'])[1]//preceding::input
+
+    f). parent : The parent of any reference element that we can target.
+        //tagname[@attr='value']//parent::tagname[@attr=value]
+        //input[@value='radio_123']//parent::li
+        //input[@value='radio_123']//parent::li//parent::ul//li[4]
+
+
+CSS SELECTOR:
+       tagname[attribute=value]
+       input[name='firstname']:nth-child(2)
+       div>input[name='firstname']:nth-child(2)
+       #fistname
+       div>input[class='inputtext _55r1 _6luy']
+       #content > div > div > div > div._8esl > div > img
+
+

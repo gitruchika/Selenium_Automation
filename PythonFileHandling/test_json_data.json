@@ -1,0 +1,22 @@
+{
+  "emp_details" : [
+    {
+      "name" : "John",
+      "age" : 25,
+      "email" : "john@gmail.com",
+      "phone" : 99848439893
+    },
+    {
+      "name" : "Aditya",
+      "age" : 35,
+      "email" : "Aditya@gmail.com",
+      "phone" : 8899889232
+    },
+    {
+      "name" : "Rahul",
+      "age" : 30,
+      "email" : "rahul@gmail.com",
+      "phone" : 77788677897
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+1. Numbers:
+    a). Integer
+    b). Float
+    c). Complex number
+2. Sequencial:
+    e). String
+    f). List
+    g). Tuple
+3. Dictionary
+4. Set
+5. Boolean

@@ -1,0 +1,3 @@
+2023-11-23 21:50:29,084 [INFO] basefile.py:24 url successfully launched: https://automationbysqatools.blogspot.com/2021/05/dummy-website.html
+2023-11-23 21:50:29,089 [INFO] basefile.py:29 found element for locator: ('xpath', "//h1[@align='center']")
+2023-11-23 21:50:29,213 [INFO] basefile.py:53 got text of element: ('xpath', "//h1[@align='center']"), Dummy Ticket Booking Website

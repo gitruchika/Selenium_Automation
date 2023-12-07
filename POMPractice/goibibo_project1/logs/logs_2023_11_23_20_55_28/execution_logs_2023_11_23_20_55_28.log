@@ -1,0 +1,13 @@
+2023-11-23 20:55:32,748 [INFO] basefile.py:26 url successfully launched: https://www.goibibo.com/
+2023-11-23 20:55:32,755 [INFO] book_flight_module.py:15 ('xpath', "//span[@class='logSprite icClose']//parent::span")
+2023-11-23 20:55:32,758 [INFO] basefile.py:31 found element for locator: ('xpath', "//span[@class='logSprite icClose']//parent::span")
+2023-11-23 20:55:37,230 [INFO] basefile.py:31 found element for locator: ('xpath', "//span[text()='From']//following-sibling::p[contains(text(), 'Enter city or airport')]")
+2023-11-23 20:55:37,686 [INFO] basefile.py:31 found element for locator: ('xpath', "//span[text()='From']//following-sibling::input")
+2023-11-23 20:55:37,942 [INFO] basefile.py:31 found element for locator: ('xpath', "//span[contains(text(), 'Mumbai')]//ancestor::li")
+2023-11-23 20:55:38,596 [INFO] basefile.py:31 found element for locator: ('xpath', "//span[text()='To']//following-sibling::input")
+2023-11-23 20:55:38,763 [INFO] basefile.py:31 found element for locator: ('xpath', "//span[contains(text(), 'Delhi')]//ancestor::li")
+2023-11-23 20:55:39,243 [INFO] basefile.py:31 found element for locator: ('xpath', "//div[@aria-label='Fri Nov 24 2023']")
+2023-11-23 20:55:39,580 [INFO] basefile.py:31 found element for locator: ('xpath', "//span[text()='Done']")
+2023-11-23 20:55:40,007 [INFO] basefile.py:31 found element for locator: ('xpath', "//li[text()='economy']")
+2023-11-23 20:55:40,271 [INFO] basefile.py:31 found element for locator: ('xpath', "//a[text()='Done']")
+2023-11-23 20:55:45,606 [INFO] basefile.py:31 found element for locator: ('xpath', "//span[text()='SEARCH FLIGHTS']")

@@ -1,0 +1,4 @@
+2023-11-24 21:16:14,362 [INFO] basefile.py:18 found element for locator: ('xpath', "//h1[@align='center']")
+2023-11-24 21:16:24,802 [INFO] basefile.py:23 saved screen shot: element_not_found_2023_11_24_21_16_24
+2023-11-24 21:16:25,519 [INFO] basefile.py:18 found element for locator: ('xpath', "//span[contains(text(),'Dummy hotel booking ticket - $400')]//parent::li/input")
+2023-11-24 21:16:35,706 [INFO] basefile.py:23 saved screen shot: element_not_found_2023_11_24_21_16_35

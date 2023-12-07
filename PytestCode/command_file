@@ -1,0 +1,22 @@
+# install pytest with given command
+pip install pytest
+
+# Execute pytest test case
+  python -m pytest .\test_smoke.py
+
+# Execute all the test_ files in the specific directory with verbos
+  python -m pytest -v .
+
+# run pytest test cases with marker
+
+ python -m pytest -v -m smoke .
+
+# command to execute specific files test case
+ python -m pytest -v -m sanity .\PytestCode\test_flight.py
+
+# configure HTML report
+ -> install with this command
+pip install pytest-html
+
+command to generate html report
+python -m pytest -v -s  .\test_smoke_xfail_skip.py --html=report.html

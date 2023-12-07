@@ -1,0 +1,18 @@
+# command to install robotframework
+pip install robotframework
+
+# command to install selenium library
+pip install robotframework-seleniumlibrary
+
+
+# Selenium Library Documentation
+https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Open%20Browser
+
+# User Guide Documentation
+https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#files-and-directories
+
+# Execute code with tag
+robot -d report --include Sanity dummy_website_automation.robot
+
+# Execute code with variable value
+robot -d report --include Sanity -v browser:firefox dummy_website_automation.robot

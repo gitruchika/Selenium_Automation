@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231127 21:16:40.799" rpa="false" schemaversion="4">
+<suite id="s1" name="PythonSelenium4Sept2023" source="E:\Trainings\PythonSelenium4Sept2023">
+<suite id="s1-s1" name="RobotFrameworkPractice" source="E:\Trainings\PythonSelenium4Sept2023\RobotFrameworkPractice">
+<suite id="s1-s1-s1" name="First Robot Script" source="E:\Trainings\PythonSelenium4Sept2023\RobotFrameworkPractice\first_robot_script.robot">
+<test id="s1-s1-s1-t1" name="Launch and browser search on google" line="6">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.google.co.in</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231127 21:16:41.595" level="INFO">Opening browser 'chrome' to base url 'https://www.google.co.in'.</msg>
+<status status="PASS" starttime="20231127 21:16:41.594" endtime="20231127 21:16:51.980"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name=q</arg>
+<arg>Robotframework</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231127 21:16:51.983" level="INFO">Typing text 'Robotframework' into text field 'name=q'.</msg>
+<status status="PASS" starttime="20231127 21:16:51.981" endtime="20231127 21:16:52.274"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>name=btnK</arg>
+<arg>10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20231127 21:16:52.275" endtime="20231127 21:16:52.581"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>name=btnK</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231127 21:16:52.582" level="INFO">Clicking element 'name=btnK'.</msg>
+<status status="PASS" starttime="20231127 21:16:52.582" endtime="20231127 21:16:52.907"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231127 21:16:57.910" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20231127 21:16:52.908" endtime="20231127 21:16:57.910"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20231127 21:16:57.910" endtime="20231127 21:17:00.274"/>
+</kw>
+<status status="PASS" starttime="20231127 21:16:41.591" endtime="20231127 21:17:00.275"/>
+</test>
+<status status="PASS" starttime="20231127 21:16:40.867" endtime="20231127 21:17:00.277"/>
+</suite>
+<status status="PASS" starttime="20231127 21:16:40.863" endtime="20231127 21:17:00.283"/>
+</suite>
+<status status="PASS" starttime="20231127 21:16:40.807" endtime="20231127 21:17:00.286"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="PythonSelenium4Sept2023">PythonSelenium4Sept2023</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="RobotFrameworkPractice">PythonSelenium4Sept2023.RobotFrameworkPractice</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="First Robot Script">PythonSelenium4Sept2023.RobotFrameworkPractice.First Robot Script</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
