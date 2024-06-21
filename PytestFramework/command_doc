@@ -1,0 +1,16 @@
+# command to execute the code
+python -m pytest -v .\test_smoke_cases.py
+
+# run all test file with prefix as test_
+python -m pytest -v -s
+
+
+# run specific marker test cases
+python -m pytest -v -s  -m "smoke"
+
+python -m pytest -v -s  -m "smoke or sanity"
+
+# package to html report
+pip install pytest-html
+
+python -m pytest -v -s  .\tests\ --html=report.html
